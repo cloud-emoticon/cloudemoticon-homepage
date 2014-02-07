@@ -1,0 +1,145 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>雲顏文字 Cloud Emoticon ( っ*'ω'*c)&#65279; Document</title>
+</head>
+
+<body link="#0000FF" vlink="#0000FF" alink="#FF0000" bgcolor="#FFFFFF">
+
+<p><a href="../index.html">&lt; 返回首页 Index</a> <a name="menu、"></a></p>
+<p><a href="index.html">&lt; 返回源商店 Sources Store</a></p>
+<p><font color="#FFFFFF">
+<img border="0" src="../images/title.gif" width="649" height="121"></font></p>
+<p><b><font size="5">源制作文档</font></b> 简体中文版 by 雅诗</p>
+<ul>
+	<li><a href="#怎样创建自己的源？">怎样创建自己的源？</a></li>
+	<li><a href="#基本语法">基本语法</a></li>
+	<li><a href="#头部描述的两种方式">头部描述的两种方式</a></li>
+	<li><a href="#单行颜文字和多行颜文字的写法">单行颜文字和多行颜文字的写法</a></li>
+	<li><a href="#综合格式示范">综合格式示范</a></li>
+	<li><a href="#实用示例">实用示例</a></li>
+	<li><a href="#怎样将自己的源登记到云颜文字的网站中？">怎样将自己的源登记到云颜文字的网站中？</a></li>
+	<li><a href="#如何通过点击源商店中的按钮将源传入到我的程序中？">如何通过点击源商店中的按钮将源传入到我的程序中？</a></li>
+</ul>
+<p>　</p>
+<h2><a name="怎样创建自己的源？"></a>怎样创建自己的源？</h2>
+<p>按以下格式编写XML文件，然后传到可以公共访问的地方即可。</p>
+<p>　</p>
+<h2><a name="基本语法"></a>基本语法</h2>
+<p>&lt;<font color="#FF00FF">emoji</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">infoos</font>&gt;<font color="#008000">在这里填写你的源名称</font>&lt;/<font color="#FF00FF">infoos</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">category</font> name<font color="#0000FF">=&quot;在这里填写你的组名称A&quot;</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">string</font>&gt;<font color="#008000">在此输入颜文字</font>&lt;/<font color="#FF00FF">string</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">note</font>&gt;<font color="#008000">在这里写颜文字名称(此行可选)</font>&lt;/<font color="#FF00FF">note</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">category</font>&gt;</p>
+<p>&lt;/<font color="#FF00FF">emoji</font>&gt;</p>
+<p>　</p>
+<h2><a name="头部描述的两种方式"></a>头部描述的两种方式</h2>
+<p>方式一（推荐）：&lt;<font color="#FF00FF">infoos</font>&gt;<font color="#008000">在这里填写你的源名称</font>&lt;/<font color="#FF00FF">infoos</font>&gt;</p>
+<p>方式二（仅在某些特殊需求时使用）：</p>
+<p>&lt;<font color="#FF00FF">infoos</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">info</font>&gt;<font color="#008000">在这里填写你的源名称</font>&lt;/<font color="#FF00FF">info</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">info</font>&gt;<font color="#008000">在这里填写你的源其它信息</font>&lt;/<font color="#FF00FF">info</font>&gt;</p>
+<p>&lt;/<font color="#FF00FF">infoos</font>&gt;</p>
+<p>　</p>
+<h2><a name="单行颜文字和多行颜文字的写法"></a>单行颜文字和多行颜文字的写法</h2>
+<p>单行：&lt;<font color="#FF00FF">string</font>&gt;<font color="#008000">在此输入颜文字</font>&lt;/<font color="#FF00FF">string</font>&gt;</p>
+<p>多行：</p>
+<p>&lt;<font color="#FF00FF">string</font>&gt;</p>
+<p><font color="#008000">&nbsp;&nbsp;&nbsp; 在此输入</font></p>
+<p><font color="#008000">&nbsp;&nbsp;&nbsp; 多行的颜文字</font></p>
+<p>&lt;/<font color="#FF00FF">string</font>&gt;</p>
+<p>　</p>
+<h2><a name="综合格式示范"></a>综合格式示范</h2>
+<p>&lt;<font color="#FF00FF">emoji</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">infoos</font>&gt;<font color="#008000">在这里填写你的源名称</font>&lt;/<font color="#FF00FF">infoos</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">category</font> name<font color="#0000FF">=&quot;在这里填写你的组名称A&quot;</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">string</font>&gt;<font color="#008000">在此输入颜文字1</font>&lt;/<font color="#FF00FF">string</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">note</font>&gt;<font color="#008000">在这里写颜文字名称1(此行可选)</font>&lt;/<font color="#FF00FF">note</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">string</font>&gt;<font color="#008000">在此输入颜文字2</font>&lt;/<font color="#FF00FF">string</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">note</font>&gt;<font color="#008000">在这里写颜文字名称2(此行可选)</font>&lt;/<font color="#FF00FF">note</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">category</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">category</font> name<font color="#0000FF">=&quot;在这里填写你的组名称B&quot;</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">string</font>&gt;<font color="#008000">在此输入颜文字3</font>&lt;/<font color="#FF00FF">string</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">note</font>&gt;<font color="#008000">在这里写颜文字名称3(此行可选)</font>&lt;/<font color="#FF00FF">note</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">string</font>&gt;</p>
+<p><font color="#008000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+在此输入</font></p>
+<p><font color="#008000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+多行的颜文字4</font></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">string</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#FF00FF">note</font>&gt;<font color="#008000">在这里写颜文字名称4(此行可选)</font>&lt;/<font color="#FF00FF">note</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">entry</font>&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;/<font color="#FF00FF">category</font>&gt;</p>
+<p>&lt;/<font color="#FF00FF">emoji</font>&gt;</p>
+<p>　</p>
+<h2><a name="实用示例"></a>实用示例</h2>
+<p>
+<textarea rows="20" name="S1" cols="80"><emoji><infoos><info>KTachibana</info><info>https://dl.dropboxusercontent.com/u/120725807/test.xml</info></infoos><category name="&#4314;&#3436;"><entry><string>&#4314;(&#9593;&#9697;&#9593;&#4314;)</string></entry><entry><string>(&#3436;&#9593;&#9697;&#9593;)&#3436;</string></entry><entry><string>□(&#9593;&#9697;&#9593;□)&#65279;</string></entry><entry><string>&#4314; (￣▽￣&#4314; )&#65279;</string></entry><entry><string>(っ&#9593; &#9697; &#9593; )っ&#65279;</string></entry></category><category name="↖╮ㄟ▽△ㄏ╭／"><entry><string>╮(￣▽￣")╭</string></entry><entry><string>╮( &#3665;&#9593;,&#9697;&#9593; &#3665;) ╭</string></entry><entry><string>╭(&#3665;&#9593;,&#9697;&#9593;&#3665;)╮&#65279;</string></entry><entry><string>ㄟ(￣▽￣ㄟ)</string></entry><entry><string>ㄟ( ▔&#8704;▔ )ㄏ</string></entry><entry><string>(&#12316;￣△￣)&#12316;</string></entry><entry><string>（／||||￣▽￣）／</string></entry><entry><string>↖(￣▽￣")&#65279;</string></entry><entry><string>(￣ε(#￣)☆╰╮(￣▽￣///)</string></entry></category><category name="ω"><entry><string>=ω=</string></entry><entry><string>=￣ω￣=</string></entry><entry><string>_ (:3」∠)_</string></entry></category><category name="&#1342;&#1342;"><entry><string>,,&#1342;&#8248;&#1342;,,</string></entry><entry><string>&#1342;ω&#1342;</string></entry><entry><string>ю┐(&#1342;ω&#1342;)</string></entry></category><category name="(ω)"><entry><string>(&acute; &#12539;ω&#12539;｀)</string></entry><entry><string>(&#65378;&#65381;ω&#65381;)&#65378;</string></entry><entry><string>(&acute; ；ω ；｀)</string></entry><entry><string>( っ*'ω'*c)</string></entry><entry><string>( っ&acute;ω`c)&#9825;</string></entry><entry><string>(&#65377;&#65381;ω&#65381;&#65377;)</string></entry><entry><string>(/ω＼)</string></entry><entry><string>(&acute;-ω-｀)</string></entry><entry><string>( *&#12539;ω&#12539;)&#9988;╰ひ╯&#65279;</string></entry><entry><string>(&#3665;&#8226;&#769; &#8323; &#8226;&#768;&#3665;)&#65279;</string></entry><entry><string>─=≡Σ((( つ&#8226;&#768;ω&#8226;&#769;)つ</string><note>突袭 +陆西园</note></entry><entry><string>( ,,&Ograve;ω&Oacute;,, )&#65279;</string></entry><entry><string>_( &#8226;&#769; &#8203;ω &#8226;&#768; 」∠)/_&#65279;</string></entry></category><category name="(д&#8704;△▽v)"><entry><string>( &acute;&#8704;`)σ)Д`)</string></entry><entry><string>(((( ；&#65439;Д&#65439;)))))))</string></entry><entry><string>(;&acute; &#3854;&#3766; Д &#3854;&#3766;`)</string></entry><entry><string>(;&acute; &#3854;&#3766; Д &#3854;&#3766;`)σ</string></entry><entry><string>(σ≧&#8704;≦)σ</string></entry><entry><string>&#9756;(&#65439;&#8704;&#65439;(&#65439;&#8704;&#65439;&#9756;)</string></entry><entry><string>(''　　　v　'')</string></entry><entry><string>\(''　　　v　'')/</string></entry><entry><string>(''　　　_　'')</string></entry><entry><string>Σ( ° △ °|||)</string></entry><entry><string>(つдC)</string></entry><entry><string>Σ(っ°Д°;)っ</string></entry><entry><string>( ° ▽、° )</string></entry><entry><string>(((o(&#65439;▽&#65439;)o)))</string></entry><entry><string>⊙▽⊙</string></entry><entry><string>(///&#8711;///)</string></entry></category><category name="???"><entry><string>♂</string></entry><entry><string>♀</string></entry><entry><string>(っ^///^)っ</string></entry><entry><string>o(////▽////)q&#65279;</string></entry><entry><string>( っ'&#12316;') づ</string></entry><entry><string>(┙>∧<)┙へ┻┻</string></entry><entry><string>(╯°□°）╯︵ ┻━┻</string></entry><entry><string>&#45576;_&#45576;</string></entry><entry><string>(屮&#45576;皿&#45576;)</string></entry><entry><string>(&#3665;&acute;&#1697;`&#3665;)</string></entry><entry><string>( &#865;° &#860;&#662; &#865;°)</string></entry></category><category name="真的很长（Very long）"><entry><string>
+　／￣￣＼
+＜ &acute; ⊙　　＼
+　|　３　　　ヽ
+＜ 、⊙　　　　＼
+　＼＿＿／(∪ ＿∪)
+　　　　　 Ｕ　Ｕ
+</string><note>啪啪咔</note></entry><entry><string>
+／￣￣＼
+(;;;;_ 'ω',,)
+丿　! 
+（_,,ノ&#65279;
+</string><note>啪啪咔的小蘑菇</note></entry><entry><string>
+. .: : : : : : : : :: :::: :: :: : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+　　　　. . : : : :: : : :: : ::: :: : :::: :: ::: ::: ::::::::::::::::::::::::::::::::::::::
+　　　.　. .... ..: : :: :: ::: :::::: :::::::::::: : :::::::::::::::::::::::::::::::::::::::::::::
+　　　　　　　 Λ＿Λ . . . .: : : ::: : :: ::::::::: :::::::::::::::::::::::::::::
+　　　　　 　/:彡ミ゛ヽ;）ー&#65380;　. . .: : : :::::: :::::::::::::::::::::::::::::::::
+　　　　　 / :::/:: ヽ、ヽ、 ::i . .:: :.: ::: . :::::::::::::::::::::::::::::::::::::::
+　　 　　 / :::/;;: 　 ヽ　ヽ ::ｌ　. :. :. .:: : :: :: :::::::: : ::::::::::::::::::
+￣￣￣（_,ノ ￣￣￣ヽ&#65380;_ノ￣￣￣￣
+</string><note>H酱</note></entry></category></emoji></textarea></p>
+<p>
+<a name="addweb"></a></p>
+<p>
+　</p>
+<h2><a name="怎样将自己的源登记到云颜文字的网站中？"></a>怎样将自己的源登记到云颜文字的网站中？</h2>
+<p>你可以前往 
+<a target="_blank" href="https://plus.google.com/communities/117258809911473533417">
+我们的公开讨论组</a> 发布你的源。</p>
+<p>或者联系网站作者 <a href="mailto:cxchope@163.com">cxchope@163.com</a> 。</p>
+<p><a name="addapp"></a></p>
+<p>　</p>
+<h2><a name="如何通过点击源商店中的按钮将源传入到我的程序中？"></a>如何通过点击源商店中的按钮将源传入到我的程序中？</h2>
+<p>点击源商店中的安装源，将会被执行以下格式的连接：</p>
+<p><font color="#FF00FF">cloudemoticon</font>://<font color="#008000">&lt;你的XML文件路径(*.xml)&gt;</font></p>
+<p><font color="#FF00FF">cloudemoticons</font>://<font color="#008000">&lt;你的XML文件路径(*.xml)&gt;</font></p>
+<p>例如：</p>
+<p><font color="#FF00FF">http</font>://<font color="#008000">dl.dropboxusercontent.com/u/120725807/test.xml</font></p>
+<p><font color="#FF00FF">https</font>://<font color="#008000">dl.dropboxusercontent.com/u/120725807/test.xml</font></p>
+<p>会被改成：</p>
+<p><font color="#FF00FF">cloudemoticon</font>://<font color="#008000">dl.dropboxusercontent.com/u/120725807/test.xml</font></p>
+<p><font color="#FF00FF">cloudemoticons</font>://<font color="#008000">dl.dropboxusercontent.com/u/120725807/test.xml</font></p>
+<p>你只需要在你的程序中注册<font color="#FF00FF"> cloudemoticon:// </font>和<font color="#FF00FF"> cloudemoticons:// </font>协议即可。</p>
+<p>　</p>
+<p><a href="#menu、">↑ 返回顶端目录</a></p>
+<p><a href="../index.html">&lt; 返回首页 Index</a></p>
+<p><a href="index.html">&lt; 返回源商店 Sources Store</a></p>
+<!--webbot bot="Include" U-Include="sfoot.htm" TAG="BODY" startspan -->
+
+<p><font face="微软雅黑" size="2" color="#808080">(C) 云颜文字 2014</font></p>
+
+<!--webbot bot="Include" i-checksum="24768" endspan -->
+
+</body>
+
+</html>
