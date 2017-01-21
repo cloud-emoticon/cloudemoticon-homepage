@@ -1,0 +1,24 @@
+{
+  "name": "cloud-emoticon-website",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "KTachibanaM",
+    "cxchope",
+    "kagurazakayukari"
+  ],
+  "license": "MIT",
+  "homepage": "http://emoticon.moe",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
