@@ -8,7 +8,6 @@ bower install
 ```
 
 ## TODO
-* switch active on route change
 * download button
 * i18n
 

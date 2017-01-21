@@ -16,3 +16,13 @@ app.config(function ($routeProvider, $locationProvider) {
             redirectTo: '/'
         })
 });
+
+app.run(function ($rootScope, $location) {
+    var path = function () {
+        return $location.path();
+    };
+    $rootScope.$watch(path, function (new_route, old_route) {
+        console.log(new_route, old_route);
+        $rootScope.activeTab = new_route;
+    });
+});
