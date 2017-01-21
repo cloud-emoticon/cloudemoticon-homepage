@@ -8,8 +8,8 @@ bower install
 ```
 
 ## TODO
-* download button
 * i18n
 
 ## Cannot fix TODO
 * mobile page alignments
+* responsive on mobile
