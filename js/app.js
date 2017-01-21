@@ -7,7 +7,7 @@ app.config(function ($routeProvider, $locationProvider) {
             templateUrl: './pages/homepage.html'
         })
         .when('/mobile', {
-            template: 'mobile'
+            templateUrl: './pages/mobile.html'
         })
         .when('/desktop', {
             template: 'desktop'
