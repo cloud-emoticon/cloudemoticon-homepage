@@ -12,6 +12,5 @@ bower install
 * programmatically generate segments
 
 ## Cannot fix TODO
-* mobile page alignments
 * image placeholder
 * responsive on mobile

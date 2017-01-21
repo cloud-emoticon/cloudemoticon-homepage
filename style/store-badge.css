@@ -1,4 +1,10 @@
+.store-badge-container {
+    height: 100px;
+    line-height: 100px;
+}
+
 .store-badge {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    vertical-align: center;
 }

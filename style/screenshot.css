@@ -1,0 +1,10 @@
+.screenshot-container {
+    height: 300px;
+    line-height: 300px;
+}
+
+.screenshot {
+    width: 100%;
+    height: auto;
+    vertical-align: center
+}
