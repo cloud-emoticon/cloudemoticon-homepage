@@ -16,25 +16,15 @@
                 <div class="inner">
                     <h3 class="masthead-brand">云颜文字</h3>
                     <nav class="nav nav-masthead">
-                        <a class="nav-link active" href="#">首页</a>
-                        <a class="nav-link" href="#mobile">移动版</a>
-                        <a class="nav-link" href="#desktop">桌面版</a>
+                        <a class="nav-link active" href="#/">首页</a>
+                        <a class="nav-link" href="#/mobile">移动版</a>
+                        <a class="nav-link" href="#/desktop">桌面版</a>
                         <a class="nav-link" href="/store">源商店</a>
-                        <a class="nav-link" href="https://plus.google.com/communities/117258809911473533417">支持</a>
+                        <a class="nav-link" href="https://plus.google.com/communities/117258809911473533417">社区</a>
                     </nav>
                 </div>
             </div>
-            <div class="inner cover">
-                <h1 class="cover-heading">在云中找到你所爱的颜文字</h1>
-                <p class="lead">这款App能够从远程服务器上下载颜文字源，将它们在分类的列表中展示出来，并让你一键复制。</p>
-                <p class="lead">你只需将你的颜文字列表（JSON或者XML格式）放在某个远程服务器上，例如Dropbox公共共享文件夹，你自己的服务器，或者从源商店里添加别人的源。</p>
-                <p class="lead">这样你就不需要手动折腾输入法，使用不能一键复制的其它云App，或者使用不能自定义的颜文字App。</p>
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">下载</a>
-                </p>
-                <a class="lead" href="#mobile">其他移动版？</a>
-                <a class="lead" href="#desktop">其他桌面版？</a>
-            </div>
+            <div ng-view class="inner cover"></div>
             <div class="mastfoot">
                 <div class="inner">
                     <p>由Google+多人共同参与的云颜文字项目</p>
