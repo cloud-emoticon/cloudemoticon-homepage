@@ -10,7 +10,7 @@ app.config(function ($routeProvider, $locationProvider) {
             templateUrl: './pages/mobile.html'
         })
         .when('/desktop', {
-            template: 'desktop'
+            templateUrl: './pages/desktop.html'
         })
         .otherwise({
             redirectTo: '/'
