@@ -29,19 +29,19 @@ app.run(function ($rootScope, $location) {
 
 app.constant('Platforms', {
     'ios': {
-        text: 'iOS',
+        name: 'iOS',
         link: 'https://itunes.apple.com/cn/app/yun-yan-wen-zi-cloud-emoticon/id796508155?mt=8'
     },
     'android': {
-        text: 'Android',
+        name: 'Android',
         link: 'https://play.google.com/store/apps/details?id=org.ktachibana.cloudemoji'
     },
     'windows-phone': {
-        text: 'Windows Phone',
+        name: 'Windows Phone',
         link: 'http://www.windowsphone.com/en-us/store/app/cloud-emoticon/5890cf94-b104-4997-9fb7-7af6c94ed863'
     },
     'windows': {
-        text: 'Windows',
+        name: 'Windows',
         link: 'https://github.com/kinosang/cloudemoji_win/tree/master/release'
     }
 });
