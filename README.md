@@ -1,16 +1,19 @@
 # Cloud Emoticon Website
 
-## Prepare
+## Build docker image
 
 ```bash
-npm install -g bower
-bower install
+docker build . -t cloudemoticon/website
 ```
 
-## TODO
-* i18n
-* programmatically generate segments
+## Run
+```bash
+docker run -p 8000:8000 -d cloudemoticon/website
+```
 
-## Cannot fix TODO
-* image placeholder
+Then visit at localhost:8000
+
+## TODO
 * responsive on mobile
+* i18n
+* image placeholder
