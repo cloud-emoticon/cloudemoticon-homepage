@@ -1,19 +1,16 @@
 # Cloud Emoticon Website
 
-## Build docker image
+## Build
 
 ```bash
-docker build . -t cloudemoticon/website
+npm install -g bower
+bower install
 ```
 
-## Run
+## Run locally
+
 ```bash
-docker run -p 8000:8000 -d cloudemoticon/website
+live-server --port=8000
 ```
 
-Then visit at localhost:8000
-
-## TODO
-* responsive on mobile
-* i18n
-* image placeholder
+Then visit [localhost:8000](http://localhost:8000)

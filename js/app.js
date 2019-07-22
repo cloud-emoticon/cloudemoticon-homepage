@@ -13,6 +13,9 @@ app.config(function ($routeProvider, $locationProvider) {
         .when('/desktop', {
             templateUrl: './pages/desktop.html'
         })
+        .when('/store', {
+            templateUrl: './pages/store.html'
+        })
         .otherwise({
             redirectTo: '/'
         })
@@ -38,10 +41,10 @@ app.constant('Platforms', {
     },
     'windows-phone': {
         name: 'Windows Phone',
-        link: 'http://www.windowsphone.com/en-us/store/app/cloud-emoticon/5890cf94-b104-4997-9fb7-7af6c94ed863'
+        link: 'https://cloudemoticon.codeplex.com/'
     },
     'windows': {
         name: 'Windows',
-        link: 'https://github.com/kinosang/cloudemoji_win/tree/master/release'
+        link: 'https://github.com/kinosang/cloudemoji_win/'
     }
 });
