@@ -1,2 +1,7 @@
 [build]
     command = "bower install"
+
+[[redirects]]
+    from = "/store.json"
+    to = "https://cloud-emoticon-store-bridge.herokuapp.com/json"
+    status = 200
