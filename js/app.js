@@ -36,12 +36,8 @@ app.constant('Platforms', {
         name: 'Android',
         link: 'https://play.google.com/store/apps/details?id=org.ktachibana.cloudemoji'
     },
-    'windows-phone': {
-        name: 'Windows Phone',
-        link: 'http://www.windowsphone.com/en-us/store/app/cloud-emoticon/5890cf94-b104-4997-9fb7-7af6c94ed863'
-    },
     'windows': {
         name: 'Windows',
-        link: 'https://github.com/kinosang/cloudemoji_win/tree/master/release'
+        link: 'https://github.com/kinosang/cloudemoji_win/'
     }
 });
