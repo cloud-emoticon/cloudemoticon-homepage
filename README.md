@@ -10,8 +10,7 @@ bower install
 ## Run locally
 
 ```bash
-npm install -g http-server
-http-server -p 8000
+live-server --port=8000
 ```
 
 Then visit [localhost:8000](http://localhost:8000)

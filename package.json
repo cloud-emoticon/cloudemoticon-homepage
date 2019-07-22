@@ -1,8 +1,6 @@
 {
-  "name": "cloudemoticonwebsite",
+  "name": "cloud-emoticon-website",
   "version": "1.0.0",
-  "description": "## Build docker image",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
