@@ -13,6 +13,9 @@ app.config(function ($routeProvider, $locationProvider) {
         .when('/desktop', {
             templateUrl: './pages/desktop.html'
         })
+        .when('/store', {
+            templateUrl: './pages/store.html'
+        })
         .otherwise({
             redirectTo: '/'
         })
