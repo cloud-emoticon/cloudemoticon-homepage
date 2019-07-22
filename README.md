@@ -14,8 +14,3 @@ live-server --port=8000
 ```
 
 Then visit [localhost:8000](http://localhost:8000)
-
-## TODO
-* Responsive on mobile
-* i18n
-* Image placeholder
