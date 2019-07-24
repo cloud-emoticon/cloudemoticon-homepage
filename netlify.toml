@@ -5,3 +5,8 @@
     from = "/store.json"
     to = "https://cloud-emoticon-store-bridge.herokuapp.com/json"
     status = 200
+
+[[redirects]]
+    from = "/store"
+    to = "https://cloud-emoticon-store-bridge.herokuapp.com"
+    status = 200
