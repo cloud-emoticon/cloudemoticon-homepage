@@ -10,3 +10,8 @@
     from = "/store"
     to = "https://cloud-emoticon-store-bridge.herokuapp.com"
     status = 200
+
+[[redirects]]
+    from = "/2"
+    to = "https://cloudemoticon2-alpha.netlify.app"
+    status = 301
