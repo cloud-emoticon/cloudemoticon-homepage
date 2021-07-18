@@ -3,12 +3,12 @@
 
 [[redirects]]
     from = "/store.json"
-    to = "https://cloud-emoticon-store-bridge.herokuapp.com/json"
+    to = "https://cloud-emoticon-store-bridge.ktachibana.party/json"
     status = 200
 
 [[redirects]]
     from = "/store"
-    to = "https://cloud-emoticon-store-bridge.herokuapp.com"
+    to = "https://cloud-emoticon-store-bridge.ktachibana.party"
     status = 200
 
 [[redirects]]
