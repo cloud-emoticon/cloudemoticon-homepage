@@ -15,3 +15,14 @@
     from = "/2"
     to = "https://cloudemoticon2-alpha.netlify.app"
     status = 301
+
+# Plausible
+[[redirects]]
+from = "/js/script.js"
+to = "https://plausible.io/js/plausible.js"
+status = 200
+
+[[redirects]]
+from = "/api/event"
+to = "https://plausible.io/api/event"
+status = 200
